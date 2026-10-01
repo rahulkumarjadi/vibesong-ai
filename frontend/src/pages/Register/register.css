@@ -1,0 +1,38 @@
+@import "../Login/login.css";
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 0.9rem;
+}
+
+.field-group select {
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #0e0e12;
+  color: #fff;
+}
+
+.genre-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.genre-chip {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #ccc;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.genre-chip.active {
+  background: linear-gradient(90deg, #7c3aed, #ec4899);
+  border-color: transparent;
+  color: white;
+}
